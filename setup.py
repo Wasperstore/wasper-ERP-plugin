@@ -1,0 +1,13 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='wasper_inventory',
+    version='0.0.1',
+    description='Multi-company inventory and accounting system like Busy',
+    author='Wasper Solutions',
+    author_email='contact@waspersolution.com',
+    packages=find_packages(),
+    zip_safe=False,
+    include_package_data=True,
+    install_requires=['frappe']
+)
